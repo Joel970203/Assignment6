@@ -50,7 +50,7 @@ void AMyActor1::Tick(float DeltaTime)
     CurrentLocation.Z = CurrentOffset;
     SetActorLocation(CurrentLocation);
 }
-'''
+```
 
 
 ### 5. DeltaTime을 곱하여 프레임 독립적인 움직임을 구현했는가?
@@ -110,8 +110,7 @@ void AMyActor2::AttemptDestroyActor()
         Destroy(); // 10% 확률로 액터를 삭제
     }
 }
-
-'''
+```
 
 ## 랜덤 스폰
 
@@ -150,4 +149,4 @@ void AMyGameModeBase::SpawnRandomActors()
         }
     }
 }
-'''
+```
